@@ -10,6 +10,7 @@ pipeline {
             sh "echo 'HELLO THERE'"
           }
   }
+}
   post{
     cleanup{
       deleteDir()
