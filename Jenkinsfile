@@ -17,7 +17,7 @@ pipeline {
   stages {
       stage('Jenkins Hook') {
           steps {
-            sh "echo 'HELLO THERE'"
+            sh "echo 'HELLO THERE, Its me!'"
             setBuildStatus("Success", "SUCCESS")
           }
   }
